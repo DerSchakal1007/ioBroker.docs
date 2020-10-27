@@ -12,29 +12,39 @@ Voraussetzungen
 -   iobroker master (Bereits bestehende iobroker Installation auf NAS / Raspi /
     etc.)
 
--   iobroker slave (Raspberry mit RS-232 USB Adapter)
+-   iobroker slave (Raspberry mit RS-232 USB Adapter) fertig installierte und
+    konfigurierte Minimalinstallation von iobroker wie in der Dokumentation für
+    [Multihost
+    Modus](https://www.iobroker.net/docu/index-24.htm?page_id=3068&lang=de)
+    beschrieben
 
  
 
-Footnotes
----------
+iobroker slave
+--------------
 
-Notes can be placed anywhere[^1] in the source file (press Control+R to insert
-one). When document is published to paper-oriented format (PDF or Word)
-footnotes are displayed at the bottom of the corresponding page. E-book readers
-usually display notes in popups.
+Unter
 
-[^1]: Yes, right here.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$/dev 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hyperlinks
-----------
+auf dem Raspi solltet Ihr ein Gerät wie ttyUSB0 finden, wenn das der Fall ist
+könnt Ihr zum nächsten Punkt weiter gehen
+
+ 
+
+Lambdatronic 3200 
+------------------
 
 Press Control+K to insert a hyperlink. It can be either literal URL
 (<http://www.google.com/>) or have some [text](http://www.texts.io/). Click URL
 with Control key pressed to open it in web browser.
 
-Math
-----
+ 
+
+iobroker master konfiguration
+-----------------------------
 
 Formulas can be placed inline like $$E=mc^2$$ or in a separate paragraph, like
 the following one. Standard LaTeX syntax is supported.
